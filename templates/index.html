@@ -4,14 +4,17 @@
 {% block body %}
     <!-- Start of body content specific to page -->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-white"><strong>Home Page</strong></h1>
+        <h1 class="text-white"><strong>Home Page (Recipes)</strong></h1>
         <div class="row">
             <div class="col-4">
                 <div class="card">
                     <img class="card-img-top" src="{{ url_for('static', filename='assets/python.jpeg') }}" alt="Python Development" height="250">
                     <div class="card-body">
-                    <h4 class="card-title">Chocolate Cake Recipe</h4>
+                    <h4 class="card-title">Chocolate Cake</h4>
                     <p class="card-text">
+                        <h6>Prep time: 20 min.</h6>
+                        <h6>Bake time: 20-25 min.</h6>
+                        <h6>Serving Size: 16</h6>
                         <ul>
                             <li>3/4 cup butter, softened</li>
                             <li>2 cups sugar</li>
@@ -44,7 +47,7 @@
                 <div class="card">
                     <img class="card-img-top" src="{{ url_for('static', filename='assets/flask.png') }}" alt="Flask Development" height="250">
                     <div class="card-body">
-                    <h5 class="card-title">What is <mark>Flask</mark>? How do I start Web development?</h5>
+                    <h5 class="card-title">Chocolate Brownies</h5>
                     <p class="card-text">
                         <ol>
                             <li>Flask Framework is the popular Web Application development framework of Python.</li>
